@@ -1,5 +1,7 @@
 # DRESS UP PRIVATEASER
 
+![alt text](./privaTeaser.png)
+
 > HTML/CSS/SASS/Design... workshop based on french startup https://www.privateaser.com
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
