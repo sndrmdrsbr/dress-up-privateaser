@@ -1,3 +1,10 @@
+/* Import new fonts*/
+@font-face {
+    font-family: "chalk";
+    src: url('C:/Users/s0s0_/Downloads/cafe-francoise/Café Françoise.otf');
+}
+
+
 /* global */
 body {
     margin: 0;
@@ -63,3 +70,97 @@ button {
             opacity: 1;
             right: 0;
         }
+
+/* header */
+div.header {
+}
+
+div.header-wrap {
+    width: 900px;
+    margin: auto;
+    position: relative;
+    height: auto;
+}
+
+
+div.header-wrap .gnb {
+    width: 900px;
+    margin: 0 auto;
+    padding: 80px 0 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+    div.header-wrap .gnb ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        line-height: 32px;
+        text-align: center;
+        margin: 0;
+    }
+
+        div.header-wrap .gnb ul li {
+            display: inline-block;
+            margin-right: 45px;
+            vertical-align: middle;
+            font-family: chalk;
+            color: aliceblue;
+            font-size: 200%;
+        }
+            div.header-wrap .gnb ul li a, .gnb ul li a:visited {
+                color: aliceblue;
+                opacity: 0.25;
+            }
+
+                div.header-wrap .gnb ul li a:hover, .gnb ul li a:active {
+                    color: orange;
+                    opacity: 1;
+                }
+
+
+    div.header-wrap .logo-box {
+        width: 200px;
+        position: absolute;
+        left: -230px;
+        top: 155px;
+    }
+
+
+/* background */
+div.background {
+    background: url("C:/Users/s0s0_/Downloads/background.jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+/* content */
+div.wrap {
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+div.content {
+    width: 930px;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+div.image {
+    height:25%;
+    margin: 5% 25% 10%;
+    background: url("C:/Users/s0s0_/Downloads/photo.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+/* footer */
+footer {
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+
